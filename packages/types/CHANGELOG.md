@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.0.0](https://github.com/whymarrh/LavaMoat/compare/types-v1.0.0...types-v2.0.0) (2026-04-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v18 is no longer supported.
+
+### Features
+
+* **types:** add `include` property to LavaMoatPolicy ([3721cc7](https://github.com/whymarrh/LavaMoat/commit/3721cc7981ec45dc0267ed348f24bc2e913d5e08))
+* **webpack,core:** Add a meta field to policy resource, report webpack optimizations to it. ([a53b434](https://github.com/whymarrh/LavaMoat/commit/a53b434e21e074d2261a4e84b85e33fe8aa87278))
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo ([#1680](https://github.com/whymarrh/LavaMoat/issues/1680)) ([9739051](https://github.com/whymarrh/LavaMoat/commit/973905160650c659b567088aeef9c44ec814fd7c))
+* drop Node.js v18 support across the board ([#1886](https://github.com/whymarrh/LavaMoat/issues/1886)) ([1190c9b](https://github.com/whymarrh/LavaMoat/commit/1190c9b58294abc071eadd7cd14ea11bf63d28b4))
+* **types:** remove global Object.hasOwn type ([ee9f86b](https://github.com/whymarrh/LavaMoat/commit/ee9f86b764b2a18b5863cd769d545692420ebf5a)), closes [#1817](https://github.com/whymarrh/LavaMoat/issues/1817)
+
 ## [1.0.0](https://github.com/LavaMoat/LavaMoat/compare/types-v0.1.0...types-v1.0.0) (2026-03-20)
 
 

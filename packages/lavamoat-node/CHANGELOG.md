@@ -19,6 +19,56 @@
     * lavamoat-core bumped from ^15.2.0 to ^15.2.1
     * lavamoat-tofu bumped from ^7.2.1 to ^7.2.2
 
+## [12.0.0](https://github.com/whymarrh/LavaMoat/compare/lavamoat-v11.0.1...lavamoat-v12.0.0) (2026-04-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v18 is no longer supported.
+* indicate breaking change propagation: stop overwriting the policy file while loading. ([#1835](https://github.com/whymarrh/LavaMoat/issues/1835))
+
+### Features
+
+* **lavamoat-node:** expose top level export as return value of runLava ([#1872](https://github.com/whymarrh/LavaMoat/issues/1872)) ([f360ca4](https://github.com/whymarrh/LavaMoat/commit/f360ca4d75d9c1ceec8e91617f42ff7b3daea075))
+* **lavamoat-node:** modernize resolve in lavamoat classic, opt-in only ([#1928](https://github.com/whymarrh/LavaMoat/issues/1928)) ([21f8d97](https://github.com/whymarrh/LavaMoat/commit/21f8d97ad73a314f9034c7ec303067924ea0b91f))
+
+
+### Bug Fixes
+
+* 2 bugs manifested in walking content from policy-overrides ([#1471](https://github.com/whymarrh/LavaMoat/issues/1471)) ([7599146](https://github.com/whymarrh/LavaMoat/commit/7599146f6412777dd13d681283e1b5344297d0eb))
+* add Node.js v24.0.0 to supported engines ([ad9cdcd](https://github.com/whymarrh/LavaMoat/commit/ad9cdcdf83ccbda8bf2eba427d0c80f761f47a0a))
+* **browserify,core,lavamoat-node,node:** do not publish extraneous files ([#1866](https://github.com/whymarrh/LavaMoat/issues/1866)) ([e7666d8](https://github.com/whymarrh/LavaMoat/commit/e7666d804e2f9af71fb0cd948af04a283458b6d1)), closes [#1865](https://github.com/whymarrh/LavaMoat/issues/1865)
+* **core:** block circular global object endowments ([#1505](https://github.com/whymarrh/LavaMoat/issues/1505)) ([6745a0e](https://github.com/whymarrh/LavaMoat/commit/6745a0edee85171e4062aaec31d7f25bf3a97e46))
+* **deps:** update babel monorepo ([afc9fe5](https://github.com/whymarrh/LavaMoat/commit/afc9fe5fef98c53abe014ff657a1d4f59883abe8))
+* **deps:** update babel monorepo ([e6f4e70](https://github.com/whymarrh/LavaMoat/commit/e6f4e70cffe8237c27126046bb0cfa5515c2d138))
+* **deps:** update babel monorepo ([#1680](https://github.com/whymarrh/LavaMoat/issues/1680)) ([9739051](https://github.com/whymarrh/LavaMoat/commit/973905160650c659b567088aeef9c44ec814fd7c))
+* **deps:** update babel monorepo to v7.25.9 ([6d9d5a3](https://github.com/whymarrh/LavaMoat/commit/6d9d5a3336444fada49e239756ffc3c207d3ff5d))
+* **deps:** update babel monorepo to v7.26.2 ([9bac12a](https://github.com/whymarrh/LavaMoat/commit/9bac12abd602632a6bd0ad3af5026cc627bf2b31))
+* **deps:** update dependency corepack to v0.30.0 ([4f4fd6e](https://github.com/whymarrh/LavaMoat/commit/4f4fd6e503a79a2acee6347605be5b888f070d3b))
+* **deps:** update dependency corepack to v0.32.0 ([#1611](https://github.com/whymarrh/LavaMoat/issues/1611)) ([854bf40](https://github.com/whymarrh/LavaMoat/commit/854bf40c464686bf866542dd2278d3121def064f))
+* **deps:** update dependency corepack to v0.33.0 ([#1682](https://github.com/whymarrh/LavaMoat/issues/1682)) ([0de2351](https://github.com/whymarrh/LavaMoat/commit/0de235120f3ad41d55462ebda645ded45d86accc))
+* **deps:** update dependency corepack to v0.34.6 ([#1808](https://github.com/whymarrh/LavaMoat/issues/1808)) ([7b9a804](https://github.com/whymarrh/LavaMoat/commit/7b9a8049f03dc598febcd5dc3633f6680f47e0b7))
+* **deps:** update dependency node-gyp-build to v4.8.4 ([1c21367](https://github.com/whymarrh/LavaMoat/commit/1c21367dff7d83bc94cdcfb8b0245a27d3e32bd0))
+* **deps:** update dependency resolve to v1.22.10 ([#1535](https://github.com/whymarrh/LavaMoat/issues/1535)) ([17bee26](https://github.com/whymarrh/LavaMoat/commit/17bee26ef5d24f8bcc48d4aac0a7e066a8bbf7af))
+* **deps:** update dependency resolve to v1.22.11 ([#1920](https://github.com/whymarrh/LavaMoat/issues/1920)) ([5ed6202](https://github.com/whymarrh/LavaMoat/commit/5ed6202b61a0eb01694156ab9a291b7fcaa5044d))
+* drop Node.js v18 support across the board ([#1886](https://github.com/whymarrh/LavaMoat/issues/1886)) ([1190c9b](https://github.com/whymarrh/LavaMoat/commit/1190c9b58294abc071eadd7cd14ea11bf63d28b4))
+* indicate breaking change propagation: stop overwriting the policy file while loading. ([#1835](https://github.com/whymarrh/LavaMoat/issues/1835)) ([81f2cb0](https://github.com/whymarrh/LavaMoat/commit/81f2cb0bf00e61c9ddfb637ad20deacba95ca967))
+* **lavamoat-node:** cli entry args ([#1857](https://github.com/whymarrh/LavaMoat/issues/1857)) ([#1859](https://github.com/whymarrh/LavaMoat/issues/1859)) ([f949577](https://github.com/whymarrh/LavaMoat/commit/f9495777dc0fe853064fe1de241a0421e925b212))
+* **lavamoat-node:** fix missing cjs extension in the list of extensions to resolve ([#1856](https://github.com/whymarrh/LavaMoat/issues/1856)) ([f2eeced](https://github.com/whymarrh/LavaMoat/commit/f2eecedbcf6f501e4f7163f47b97821b9e5dc8a1))
+* **lavamoat-node:** fix the bug that prevented following dependency relationships listed in policy overrides ([61df9ed](https://github.com/whymarrh/LavaMoat/commit/61df9edc47bca3c47d2975032d7db30de833b458))
+* **lavamoat-node:** support packages with falsy main field ([e8c489c](https://github.com/whymarrh/LavaMoat/commit/e8c489c5fe3054bf6099658b3e9f3d1da07f7bc2)), closes [#1706](https://github.com/whymarrh/LavaMoat/issues/1706)
+* make policy ordering consistntly manifest itself in json files produced ([a149a7d](https://github.com/whymarrh/LavaMoat/commit/a149a7d16d65bc4255cf32211a671823356565da))
+* performant implementation of getPackageDirForModulePath in aa and minor memoization in lavamoat-node ([#1878](https://github.com/whymarrh/LavaMoat/issues/1878)) ([467c248](https://github.com/whymarrh/LavaMoat/commit/467c248a80b4706b6f51da13fca67d1a64c2dc91))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @lavamoat/aa bumped from ^5.0.0 to ^6.0.0
+    * lavamoat-core bumped from ^18.0.1 to ^19.0.0
+    * lavamoat-tofu bumped from ^9.0.0 to ^10.0.0
+
 ## [11.0.1](https://github.com/LavaMoat/LavaMoat/compare/lavamoat-v11.0.0...lavamoat-v11.0.1) (2026-04-02)
 
 

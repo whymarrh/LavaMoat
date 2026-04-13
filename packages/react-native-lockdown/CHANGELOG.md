@@ -1,5 +1,26 @@
 # Changelog
 
+## [2.0.0](https://github.com/whymarrh/LavaMoat/compare/react-native-lockdown-v1.0.0...react-native-lockdown-v2.0.0) (2026-04-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v18 is no longer supported.
+
+### Features
+
+* **react-native-lockdown:** @lavamoat/react-native-lockdown beta ([074c277](https://github.com/whymarrh/LavaMoat/commit/074c2775093e94f6a81da0890aaa66db2700ac5a))
+* **react-native-lockdown:** ses@1.14.0 ([#1737](https://github.com/whymarrh/LavaMoat/issues/1737)) ([3926718](https://github.com/whymarrh/LavaMoat/commit/3926718ee5b8fc935158d0ad766247c954e89a82))
+* **react-native-lockdown:** use vendored SES version ([#1716](https://github.com/whymarrh/LavaMoat/issues/1716)) ([34d8b67](https://github.com/whymarrh/LavaMoat/commit/34d8b6766245bf73d5f07f8f970c01400282dc1b))
+
+
+### Bug Fixes
+
+* **deps:** upgrade ses, @types/node, endo ([c6eca11](https://github.com/whymarrh/LavaMoat/commit/c6eca11b3cfc873b7f5776b0d08f6f329b48e490))
+* drop Node.js v18 support across the board ([#1886](https://github.com/whymarrh/LavaMoat/issues/1886)) ([1190c9b](https://github.com/whymarrh/LavaMoat/commit/1190c9b58294abc071eadd7cd14ea11bf63d28b4))
+* **react-native-lockdown:** add types ([a01f6f5](https://github.com/whymarrh/LavaMoat/commit/a01f6f5e15c451a34a776adbfaa851846bfd9d9e))
+* **react-native-lockdown:** add vendor directory when creating tarball ([#1728](https://github.com/whymarrh/LavaMoat/issues/1728)) ([47d542e](https://github.com/whymarrh/LavaMoat/commit/47d542e069253c059d27182d683653f73a9bafd4))
+
 ## [1.0.0](https://github.com/LavaMoat/LavaMoat/compare/react-native-lockdown-v0.1.0...react-native-lockdown-v1.0.0) (2026-03-20)
 
 

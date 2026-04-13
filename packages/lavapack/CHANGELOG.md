@@ -24,6 +24,28 @@
   * dependencies
     * lavamoat-core bumped from ^15.2.0 to ^15.2.1
 
+## [9.0.0](https://github.com/whymarrh/LavaMoat/compare/lavapack-v8.0.1...lavapack-v9.0.0) (2026-04-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v18 is no longer supported.
+
+### Bug Fixes
+
+* add Node.js v24.0.0 to supported engines ([ad9cdcd](https://github.com/whymarrh/LavaMoat/commit/ad9cdcdf83ccbda8bf2eba427d0c80f761f47a0a))
+* **core:** block circular global object endowments ([#1505](https://github.com/whymarrh/LavaMoat/issues/1505)) ([6745a0e](https://github.com/whymarrh/LavaMoat/commit/6745a0edee85171e4062aaec31d7f25bf3a97e46))
+* **deps:** update dependency json-stable-stringify to v1.3.0 ([#1613](https://github.com/whymarrh/LavaMoat/issues/1613)) ([f9314d1](https://github.com/whymarrh/LavaMoat/commit/f9314d1a238d31a0164356c1c6bd6f6e36246d56))
+* **deps:** update dependency readable-stream to v4.7.0 ([#1617](https://github.com/whymarrh/LavaMoat/issues/1617)) ([9cb1e4b](https://github.com/whymarrh/LavaMoat/commit/9cb1e4be3547de0763be5055ac50eb211d658af5))
+* drop Node.js v18 support across the board ([#1886](https://github.com/whymarrh/LavaMoat/issues/1886)) ([1190c9b](https://github.com/whymarrh/LavaMoat/commit/1190c9b58294abc071eadd7cd14ea11bf63d28b4))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * lavamoat-core bumped from ^18.0.1 to ^19.0.0
+
 ## [8.0.1](https://github.com/LavaMoat/LavaMoat/compare/lavapack-v8.0.0...lavapack-v8.0.1) (2026-04-02)
 
 

@@ -6,6 +6,42 @@
   * dependencies
     * @lavamoat/aa bumped from ^4.0.1 to ^4.1.0
 
+## [5.0.0](https://github.com/whymarrh/LavaMoat/compare/allow-scripts-v4.0.0...allow-scripts-v5.0.0) (2026-04-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* **allow-scripts:** no longer matches lower version with the allowed
+* **allow-scripts:** defaults to pinning versions, requires an action to migrate
+* Node.js v18 is no longer supported.
+
+### Features
+
+* **allow-scripts:** change the recommended use of allow-scripts to global install ([#1823](https://github.com/whymarrh/LavaMoat/issues/1823)) ([48a1d98](https://github.com/whymarrh/LavaMoat/commit/48a1d98bae5c6b38e5fe7c7d7ddadb9b77892034))
+* **allow-scripts:** install scripts pinned to versions ([fcf80c5](https://github.com/whymarrh/LavaMoat/commit/fcf80c50e484bdce38a0911736574b967d8c2960))
+
+
+### Bug Fixes
+
+* add Node.js v24.0.0 to supported engines ([ad9cdcd](https://github.com/whymarrh/LavaMoat/commit/ad9cdcdf83ccbda8bf2eba427d0c80f761f47a0a))
+* **allow-scripts:** fix [#1796](https://github.com/whymarrh/LavaMoat/issues/1796) - correct dev flag in setup ([d4f45de](https://github.com/whymarrh/LavaMoat/commit/d4f45de0a05360a60f8e25c4d4bdcdd960937bbd))
+* **allow-scripts:** include type-fest as prod dep ([10d67f7](https://github.com/whymarrh/LavaMoat/commit/10d67f79b08f2bb14b7056be7f964c5e16195407))
+* **allow-scripts:** usability improvements/fixes ([#1941](https://github.com/whymarrh/LavaMoat/issues/1941)) ([0bd9805](https://github.com/whymarrh/LavaMoat/commit/0bd98057ca5a54fc9d9ae679048e1e310d6cb8a7))
+* **deps:** fix npm audit issues ([#1853](https://github.com/whymarrh/LavaMoat/issues/1853)) ([5ba0f2d](https://github.com/whymarrh/LavaMoat/commit/5ba0f2de62aa4feca86d7f96bcce24f76d6aa624))
+* **deps:** update dependency @npmcli/run-script to v10.0.4 ([#1917](https://github.com/whymarrh/LavaMoat/issues/1917)) ([8c834d7](https://github.com/whymarrh/LavaMoat/commit/8c834d7f2d60b493a607ad692e2683b42551c62c))
+* **deps:** update dependency type-fest to v4.30.0 ([6528665](https://github.com/whymarrh/LavaMoat/commit/6528665e2e99221366444c23a0e52be447e04071))
+* **deps:** update dependency type-fest to v4.40.0 ([#1619](https://github.com/whymarrh/LavaMoat/issues/1619)) ([4e20306](https://github.com/whymarrh/LavaMoat/commit/4e20306371ae605fc414dd645b8e422a68c71b93))
+* **deps:** update dependency type-fest to v4.40.1 ([#1624](https://github.com/whymarrh/LavaMoat/issues/1624)) ([b918dcc](https://github.com/whymarrh/LavaMoat/commit/b918dcc7d7ea2b0a4779eecaa7a853c73ecc5246))
+* **deps:** update dependency type-fest to v4.41.0 ([#1657](https://github.com/whymarrh/LavaMoat/issues/1657)) ([19e9bf1](https://github.com/whymarrh/LavaMoat/commit/19e9bf144c8c43f530501bc500480fed16f995ac))
+* drop Node.js v18 support across the board ([#1886](https://github.com/whymarrh/LavaMoat/issues/1886)) ([1190c9b](https://github.com/whymarrh/LavaMoat/commit/1190c9b58294abc071eadd7cd14ea11bf63d28b4))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @lavamoat/aa bumped from ^5.0.0 to ^6.0.0
+
 ## [4.0.0](https://github.com/LavaMoat/LavaMoat/compare/allow-scripts-v3.4.3...allow-scripts-v4.0.0) (2026-03-20)
 
 
